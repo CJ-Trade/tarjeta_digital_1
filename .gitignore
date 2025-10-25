@@ -1,24 +1,62 @@
-# Logs
-logs
+# ─────────────────────────────────────────────
+# 🧠 ARCHIVO .gitignore PARA PROYECTOS REACT + VITE
+# ─────────────────────────────────────────────
+
+# Node modules
+node_modules/
+
+# Directorio de compilación (build)
+dist/
+build/
+
+# Archivos temporales o de caché
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Archivos de dependencias lock (opcional)
+# Si prefieres no subir el lock file, descomenta:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Archivos de entorno (¡muy importante!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos del sistema / IDE
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Caché de Vite
+.vite/
+.cache/
+
+# Configuración de Netlify o Vercel (local)
+.netlify/
+.vercel/
+
+# Configuración temporal de Windows
+desktop.ini
+
+# Archivos de pruebas o coverage
+coverage/
+__tests__/
+*.spec.js
+*.test.js
+
+# Archivos de salida de npm o yarn
+*.tgz
+
+# Archivos locales personales
+*.env.backup
+*.local.json
