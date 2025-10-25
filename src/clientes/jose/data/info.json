@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "nombre": "José Ramírez",
+    "cargo": "Asesor comercial automotriz",
+    "empresa": "JR Motors",
+    "descripcion": "Especialista en la venta de autos nuevos y usados certificados, con atención personalizada y financiación a medida.",
+    "imagenFondo": "/clientes/jose/assets/hero.jpg",
+    "frase": "Tu próximo auto, al alcance de tus sueños"
+  },
+  "servicios": [
+    "Compra y venta de autos nuevos",
+    "Autos usados certificados",
+    "Asesoría financiera",
+    "Planes de recompra y consignación"
+  ],
+  "propuesta": {
+    "titulo": "Encuentra el vehículo perfecto para ti",
+    "texto": "Te acompañamos en cada paso de tu compra. Desde la búsqueda hasta la entrega, garantizamos confianza, transparencia y comodidad."
+  },
+  "galeria": {
+    "imagenes": [
+      "/clientes/jose/assets/productos/producto1.jpg",
+      "/clientes/jose/assets/productos/producto2.jpg"
+    ]
+  },
+  "contacto": {
+    "telefono": "+593 99 555 1122",
+    "correo": "ventas@jrmotors.ec",
+    "ubicacion": "Cuenca, Ecuador"
+  },
+  "redes": {
+    "whatsapp": "https://wa.me/593995551122",
+    "instagram": "https://instagram.com/jrmotors.ec",
+    "facebook": "https://facebook.com/jrmotors.ec",
+    "maps": "https://goo.gl/maps/JRMotors"
+  },
+  "horario": "Lunes a sábado, 09:00 - 18:00",
+  "colores": {
+    "principal": "#1a3c8b",
+    "secundario": "#e5e5e5",
+    "fondo": "#f9f9f9"
+  },
+  "botones": [
+    { "texto": "Ver catálogo de autos", "link": "/jose/galeria" },
+    { "texto": "Solicitar cotización", "link": "/jose/contacto" },
+    { "texto": "Llamar asesor", "link": "tel:+593995551122" }
+  ],
+  "footer": {
+    "texto": "© 2025 JR Motors | Asesoría Automotriz Cuenca - Ecuador"
+  }
+}

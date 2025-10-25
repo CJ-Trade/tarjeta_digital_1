@@ -1,0 +1,134 @@
+{
+  "nombre_restaurante": "Sabor Andino",
+  "descripcion": "Cocina tradicional ecuatoriana con un toque gourmet. Cada plato cuenta una historia de nuestras raíces, con ingredientes locales y presentaciones modernas.",
+  "moneda": "USD",
+  "menu": {
+    "entradas": [
+      {
+        "nombre": "Empanadas de viento",
+        "descripcion": "Crujientes empanadas rellenas de queso manaba, espolvoreadas con azúcar glas.",
+        "precio": 3.50,
+        "imagen": "/clientes/andrea/assets/empanadas_viento.jpg",
+        "etiquetas": ["vegetariano"]
+      },
+      {
+        "nombre": "Ceviche de chochos",
+        "descripcion": "Receta serrana con chochos, tomate, cebolla morada, limón y tostado.",
+        "precio": 5.00,
+        "imagen": "/clientes/andrea/assets/cevichocho.jpg",
+        "etiquetas": ["vegano", "sin_gluten"]
+      },
+      {
+        "nombre": "Humitas tradicionales",
+        "descripcion": "Elaboradas con maíz tierno, queso fresco y un toque de albahaca.",
+        "precio": 4.50,
+        "imagen": "/clientes/andrea/assets/humitas.jpg",
+        "etiquetas": ["vegetariano"]
+      }
+    ],
+    "platos_fuertes": [
+      {
+        "nombre": "Trucha al ajillo",
+        "descripcion": "Trucha fresca del Cajas, salteada en mantequilla y ajo, acompañada con papas doradas y ensalada de la casa.",
+        "precio": 12.00,
+        "imagen": "/clientes/andrea/assets/tilapia.jpg",
+        "etiquetas": ["sin_gluten"]
+      },
+      {
+        "nombre": "Fritada quiteña",
+        "descripcion": "Cerdo crocante cocinado lentamente con mote, maduro frito y curtido de cebolla.",
+        "precio": 10.50,
+        "imagen": "/clientes/andrea/assets/fritada.jpg",
+        "etiquetas": []
+      },
+      {
+        "nombre": "Locro andino",
+        "descripcion": "Sopa espesa de papa con queso y aguacate, servida con maíz tostado.",
+        "precio": 7.50,
+        "imagen": "/clientes/andrea/assets/locro_papa.jpg",
+        "etiquetas": ["vegetariano", "sin_gluten"]
+      },
+      {
+        "nombre": "Cuy asado tradicional",
+        "descripcion": "Cuy entero asado al carbón, acompañado con papas, ají de maní y mote.",
+        "precio": 18.00,
+        "imagen": "/clientes/andrea/assets/cuy.jpg",
+        "etiquetas": []
+      },
+      {
+        "nombre": "Encocado de camarones",
+        "descripcion": "Camarones en salsa cremosa de coco, servidos con arroz y patacones.",
+        "precio": 13.00,
+        "imagen": "/clientes/andrea/assets/camarones.jpg",
+        "etiquetas": ["sin_gluten"]
+      }
+    ],
+    "bebidas": [
+      {
+        "nombre": "Jugo natural de mora",
+        "descripcion": "100% natural, sin azúcar añadida.",
+        "precio": 2.50,
+        "imagen": "https://images.unsplash.com/photo-1605478377039-3a61d367ad3b",
+        "etiquetas": ["vegano"]
+      },
+      {
+        "nombre": "Chicha de jora",
+        "descripcion": "Bebida fermentada de maíz, tradicional de los Andes.",
+        "precio": 3.00,
+        "imagen": "https://images.unsplash.com/photo-1625948242073-77bfa7e27b15",
+        "etiquetas": []
+      },
+      {
+        "nombre": "Limonada con hierba luisa",
+        "descripcion": "Refrescante y aromática, ideal para acompañar cualquier plato.",
+        "precio": 2.50,
+        "imagen": "https://images.unsplash.com/photo-1590080875833-90a7e0e1f6b3",
+        "etiquetas": ["vegano", "sin_gluten"]
+      },
+      {
+        "nombre": "Cerveza artesanal andina",
+        "descripcion": "Cerveza local con notas de maíz tostado y miel.",
+        "precio": 5.00,
+        "imagen": "https://images.unsplash.com/photo-1564758564527-9f880e6a2f0a",
+        "etiquetas": []
+      }
+    ],
+    "postres": [
+      {
+        "nombre": "Helado de paila",
+        "descripcion": "Helado artesanal de frutas típicas como taxo, mora y guanábana.",
+        "precio": 4.00,
+        "imagen": "https://images.unsplash.com/photo-1625948242073-77bfa7e27b15",
+        "etiquetas": ["sin_gluten"]
+      },
+      {
+        "nombre": "Quesadilla quiteña",
+        "descripcion": "Dulce tradicional de harina y queso, con aroma de anís.",
+        "precio": 3.50,
+        "imagen": "https://images.unsplash.com/photo-1625244724128-eced9708f8bb",
+        "etiquetas": ["vegetariano"]
+      },
+      {
+        "nombre": "Tarta de chocolate artesanal",
+        "descripcion": "Elaborada con cacao ecuatoriano al 70%, acompañada de crema batida.",
+        "precio": 5.00,
+        "imagen": "https://images.unsplash.com/photo-1605478377039-3a61d367ad3b",
+        "etiquetas": ["vegetariano"]
+      }
+    ],
+    "promociones": [
+      {
+        "nombre": "Menú Ejecutivo",
+        "descripcion": "Entrada + plato fuerte + jugo natural + postre del día.",
+        "precio": 9.50,
+        "disponible": "Lunes a Viernes, 12:00 - 15:00"
+      },
+      {
+        "nombre": "Cena para dos",
+        "descripcion": "Dos platos fuertes a elección + botella de vino artesanal.",
+        "precio": 28.00,
+        "disponible": "Viernes y Sábado, 19:00 - 22:00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+.redes {
+  background-color: #fffaf4;
+  color: #3f2b1a;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.redes-titulo {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 700;
+  color: #b26a38;
+  margin-bottom: 3rem;
+}
+
+.redes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.redes-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 2rem;
+  text-decoration: none;
+  color: #3f2b1a;
+  transition: all 0.3s ease;
+  width: 160px;
+}
+
+.redes-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.redes-icono {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.redes-nombre {
+  font-size: 1rem;
+  font-weight: 500;
+}

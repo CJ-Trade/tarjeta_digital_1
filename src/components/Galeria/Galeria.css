@@ -1,0 +1,135 @@
+.galeria {
+  background-color: #fffaf4;
+  color: #3f2b1a;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.galeria-titulo {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  color: #b26a38;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* 🔳 Contenedor general */
+.galeria-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* 🖼️ Fila con 3 imágenes */
+.galeria-fila {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.galeria-item {
+  flex: 0 0 30%;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galeria-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.galeria-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* 🔘 Botones de navegación */
+.carrusel-btn {
+  background: #b26a38;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 0.7rem 1rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 5;
+}
+
+.carrusel-btn:hover {
+  background: #a15b2e;
+}
+
+.izquierda {
+  position: absolute;
+  left: -2rem;
+}
+
+.derecha {
+  position: absolute;
+  right: -2rem;
+}
+
+/* 🔘 Botón inferior */
+.galeria-boton-container {
+  margin-top: 2.5rem;
+}
+
+.galeria-boton {
+  background-color: #b26a38;
+  color: #fffaf4;
+  border: none;
+  padding: 0.9rem 1.8rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.galeria-boton:hover {
+  background-color: #a55e31;
+  transform: translateY(-2px);
+}
+
+/* 📱 Responsive: mantiene 3 tarjetas en fila incluso en móvil */
+@media (max-width: 768px) {
+  .galeria-fila {
+    gap: 1rem;
+  }
+
+  .galeria-item {
+    flex: 0 0 32%;
+  }
+
+  .galeria-img {
+    border-radius: 10px;
+  }
+
+  .carrusel-btn {
+    padding: 0.6rem 0.9rem;
+    font-size: 1.2rem;
+  }
+
+  .izquierda {
+    left: -1rem;
+  }
+
+  .derecha {
+    right: -1rem;
+  }
+
+  .galeria-boton {
+    width: auto;
+  }
+}

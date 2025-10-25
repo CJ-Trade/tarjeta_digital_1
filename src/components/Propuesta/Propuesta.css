@@ -1,0 +1,27 @@
+.propuesta {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fffaf4; /* tono suave tipo pergamino */
+  color: #3f2b1a; /* marrón elegante */
+}
+
+.propuesta-container {
+  max-width: 800px;
+  text-align: center;
+}
+
+.propuesta-titulo {
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  font-weight: 700;
+  color: #b26a38; /* color principal del JSON */
+  margin-bottom: 1.5rem;
+}
+
+.propuesta-texto {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}

@@ -1,0 +1,100 @@
+.mapa {
+  background-color: #fffaf4;
+  padding: 5rem 2rem;
+  text-align: center;
+  color: #3f2b1a;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+/* 🏷️ Título */
+.mapa-titulo {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 700;
+  color: #b26a38;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.5px;
+}
+
+/* 🗺️ Contenedor principal del mapa */
+.mapa-contenedor {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  border-radius: 18px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #fffdf8, #fffaf4);
+  box-shadow: 0 8px 25px rgba(178, 106, 56, 0.25);
+  transition: all 0.3s ease;
+}
+
+.mapa-contenedor:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(178, 106, 56, 0.35);
+}
+
+/* 🧭 Iframe */
+.mapa-contenedor iframe {
+  width: 100%;
+  height: 420px;
+  border: none;
+  display: block;
+  border-radius: 18px;
+}
+
+/* 📍 Texto de dirección */
+.mapa-direccion {
+  margin-top: 1.8rem;
+  font-size: 1.1rem;
+  color: #704728;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+/* 🔘 Botón "Abrir en Google Maps" */
+.mapa-boton-container {
+  margin-top: 1.5rem;
+}
+
+.mapa-boton {
+  display: inline-block;
+  background-color: #b26a38;
+  color: #fffaf4;
+  padding: 0.9rem 1.8rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.mapa-boton:hover {
+  background-color: #a15b2e;
+  transform: translateY(-2px);
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .mapa {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .mapa-contenedor {
+    max-width: 95%;
+    border-radius: 14px;
+  }
+
+  .mapa-contenedor iframe {
+    height: 320px;
+  }
+
+  .mapa-direccion {
+    font-size: 1rem;
+    margin-top: 1.2rem;
+  }
+
+  .mapa-boton {
+    width: auto;
+    padding: 0.8rem 1.5rem;
+  }
+}

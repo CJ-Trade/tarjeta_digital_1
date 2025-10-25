@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "nombre": "Andrea Torres",
+    "cargo": "Chef ejecutiva y fundadora",
+    "empresa": "Restaurante Sabor Andino",
+    "descripcion": "Cocina tradicional ecuatoriana con un toque gourmet y productos locales frescos.",
+    "imagenFondo": "/clientes/andrea/assets/hero.jpg",
+    "frase": "Sabores que cuentan historias",
+    "foto": "/clientes/andrea/assets/chef.jpg"
+  },
+  "servicios": [
+    { "nombre": "Almuerzos ejecutivos", "icono": "🥗", "ruta": "/andrea/almuerzos"},
+    { "nombre": "Cenas gourmet", "icono": "🍷", "ruta": "/andrea/cenas"},
+    { "nombre": "Catering para eventos empresariales", "icono": "🍽️", "ruta": "/andrea/eventos"}
+    
+  ],
+  "propuesta": {
+    "titulo": "Experiencia Gastronómica Andina",
+    "texto": "Ofrecemos una experiencia culinaria que fusiona recetas ancestrales con técnicas modernas. Ideal para empresas, familias o turistas que buscan autenticidad."
+  },
+  "brigadas": {
+    "imagenes": [
+      "/clientes/andrea/assets/cena_gourmet.jpg",
+      "/clientes/andrea/assets/almuerzo_ejecutivo.jpg",
+      "/clientes/andrea/assets/caterring.jpg",
+      "/clientes/andrea/assets/a.jpg",
+      "/clientes/andrea/assets/b.jpg"
+    ],
+    "boton": { "texto": "Ver Menú Digital", "link": "menu" }
+    
+  },
+  "productos": {
+    "imagenes": [
+      "/clientes/andrea/assets/cena_gourmet.jpg",
+      "/clientes/andrea/assets/almuerzo_ejecutivo.jpg"
+    ]
+  },
+  "contacto": {
+    "telefono": "+593 98 765 4321",
+    "horario": "Lunes a domingo, 12:00 - 22:00",
+    "correo": "contacto@saborandino.com",
+    "maps_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.7185134541373!2d-79.00190992741446!3d-2.8972382246535493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91cd181423bd8d97%3A0xf2a409ccfe597985!2sAcademia%20Continental!5e0!3m2!1ses-419!2sec!4v1761247664648!5m2!1ses-419!2sec",
+    "maps_link": "https://maps.app.goo.gl/iub41f5SSdRscm9HA",
+    "ubicacion": "Quito, Ecuador"
+  },
+  "redes": {
+    "whatsapp": "https://wa.me/593987654321",
+    "instagram": "https://instagram.com/saborandino.ec",
+    "facebook": "https://facebook.com/saborandino.ec"
+  },
+  "colores": {
+    "principal": "#b26a38",
+    "secundario": "#3f6135",
+    "fondo": "#fffaf4"
+  },
+  "botones": [
+    { "texto": "Reservar mesa", "link": "/andrea/reservas" },
+    { "texto": "Ver menú digital", "link": "https://saborandino.com/menu" },
+    { "texto": "Llamar ahora", "link": "tel:+593987654321" },
+    { "texto": "Nuestros Servicios", "tipo": "interno","destino": "servicios", "icono": "🧾"},
+    { "texto": "Galería", "tipo": "interno", "destino": "brigadas", "icono": "📸"},
+    { "texto": "Ver Menú Digital", "tipo": "externo", "destino": "https://saborandino.com/menu", "icono": "🍽️"},
+    { "texto": "Galeria de imagenes", "tipo": "interno", "destino": "brigadas", "icono": "📷"}
+
+  ],
+  "footer": {
+    "texto": "© 2025 Restaurante Sabor Andino | Todos los derechos reservados"
+  }
+}
+
+

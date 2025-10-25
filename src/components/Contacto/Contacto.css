@@ -1,0 +1,90 @@
+.contacto {
+  background-color: #fffaf4;
+  padding: 5rem 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #3f2b1a;
+}
+
+.contacto-titulo {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 700;
+  color: #b26a38;
+  margin-bottom: 2.5rem;
+}
+
+.contacto-info {
+  background: #fffdf9;
+  border-radius: 18px;
+  padding: 2rem;
+  max-width: 650px;
+  margin: 0 auto 2rem;
+  box-shadow: 0 8px 20px rgba(178, 106, 56, 0.15);
+  text-align: left;
+}
+
+.contacto-info p {
+  font-size: 1rem;
+  margin: 0.8rem 0;
+}
+
+.contacto-info strong {
+  color: #8a4b2f;
+}
+
+.contacto-info a {
+  color: #5c3d26;
+  text-decoration: none;
+  transition: color 0.2s ease-in;
+}
+
+.contacto-info a:hover {
+  color: #b26a38;
+}
+
+.contacto-botones {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.btn-contacto {
+  display: inline-block;
+  padding: 0.8rem 1.8rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.btn-contacto-llamar {
+  background-color: #2e7d32;
+}
+
+.btn-contacto-correo {
+  background-color: #b26a38;
+}
+
+.btn-contacto-whatsapp {
+  background-color: #25d366;
+}
+
+.btn-contacto:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+/* 📱 Responsive */
+@media (max-width: 600px) {
+  .contacto-info {
+    padding: 1.5rem;
+  }
+
+  .btn-contacto {
+    width: 100%;
+    text-align: center;
+  }
+}

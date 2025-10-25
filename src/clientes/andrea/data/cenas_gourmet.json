@@ -1,0 +1,115 @@
+{
+  "nombre_restaurante": "Sabor Andino",
+  "tipo_menu": "Cenas Gourmet",
+  "descripcion_general": "Experiencia gastronómica nocturna con recetas ecuatorianas reinterpretadas con técnicas gourmet. Cada cena es una combinación de sabor, presentación y ambiente, ideal para ocasiones especiales o cenas románticas.",
+  "horario": "Jueves a Domingo, 18:30 - 22:30",
+  "precio_promedio": 18.00,
+  "moneda": "USD",
+  "cenas": [
+    {
+      "nombre": "Cena Serrana Tradicional",
+      "entrada": {
+        "nombre": "Carpaccio de lomo fino con chimichurri andino",
+        "descripcion": "Finísimas láminas de lomo curado con aceite de oliva, acompañadas de un toque de ají de uvilla y hojas de rúcula.",
+        "imagen": "https://images.unsplash.com/photo-1625948242073-77bfa7e27b15"
+      },
+      "plato_fuerte": {
+        "nombre": "Filete de res con reducción de vino tinto y puré de papas andinas",
+        "descripcion": "Corte premium cocinado al término ideal, servido con puré de papa chola y vegetales salteados.",
+        "imagen": "https://images.unsplash.com/photo-1617196034796-73ef3ac82b8e"
+      },
+      "postre": {
+        "nombre": "Volcán de chocolate con helado artesanal de mora",
+        "descripcion": "Bizcocho tibio con centro líquido de cacao 70%, acompañado con helado de mora serrana.",
+        "imagen": "https://images.unsplash.com/photo-1601050690597-1d5d1c5e6f76"
+      },
+      "bebida_recomendada": "Copa de vino tinto Cabernet Sauvignon",
+      "precio": 22.00,
+      "etiquetas": ["sin_gluten", "chef_recomendado"]
+    },
+    {
+      "nombre": "Cena Costeña Fusión",
+      "entrada": {
+        "nombre": "Ceviche tibio de camarones al jengibre",
+        "descripcion": "Camarones salteados en mantequilla con limón y jengibre, servidos con chifles crocantes.",
+        "imagen": "https://images.unsplash.com/photo-1625244724128-eced9708f8bb"
+      },
+      "plato_fuerte": {
+        "nombre": "Pescado encocado en hoja de bijao",
+        "descripcion": "Filete de corvina cocido al vapor en leche de coco, ají y especias, acompañado con arroz jazmín.",
+        "imagen": "https://images.unsplash.com/photo-1617196034796-73ef3ac82b8e"
+      },
+      "postre": {
+        "nombre": "Tarta tropical de maracuyá y coco",
+        "descripcion": "Suave mousse de maracuyá sobre base de galleta artesanal, decorada con ralladura de coco.",
+        "imagen": "https://images.unsplash.com/photo-1605478377039-3a61d367ad3b"
+      },
+      "bebida_recomendada": "Vino blanco Chardonnay o jugo natural de piña con hierba luisa",
+      "precio": 20.00,
+      "etiquetas": ["sin_gluten", "mariscos"]
+    },
+    {
+      "nombre": "Cena Vegetariana Gourmet",
+      "entrada": {
+        "nombre": "Tostones con guacamole y queso andino",
+        "descripcion": "Plátanos verdes fritos con guacamole fresco y queso curado artesanal.",
+        "imagen": "https://images.unsplash.com/photo-1608137165509-75b6fd3d0a15"
+      },
+      "plato_fuerte": {
+        "nombre": "Risotto de quinua con hongos y parmesano",
+        "descripcion": "Quinua cocida lentamente con hongos silvestres, vino blanco y queso parmesano rallado.",
+        "imagen": "https://images.unsplash.com/photo-1631759430326-0f1a6a5d8c4e"
+      },
+      "postre": {
+        "nombre": "Panna cotta de yogurt y frutas andinas",
+        "descripcion": "Panna cotta ligera con yogurt artesanal, acompañada de compota de mortiño y uvilla.",
+        "imagen": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f"
+      },
+      "bebida_recomendada": "Té frío de jamaica con menta",
+      "precio": 17.50,
+      "etiquetas": ["vegetariano", "sin_gluten"]
+    },
+    {
+      "nombre": "Cena de Montaña",
+      "entrada": {
+        "nombre": "Ensalada tibia de papas, tocino y cebolla caramelizada",
+        "descripcion": "Papas cholas doradas al sartén con cebolla dulce y trozos de tocino ahumado.",
+        "imagen": "https://images.unsplash.com/photo-1601050690597-1d5d1c5e6f76"
+      },
+      "plato_fuerte": {
+        "nombre": "Cordero estofado al romero",
+        "descripcion": "Costillas de cordero cocinadas lentamente en vino tinto y romero, servidas con puré de zanahoria y vegetales.",
+        "imagen": "https://images.unsplash.com/photo-1617196034796-73ef3ac82b8e"
+      },
+      "postre": {
+        "nombre": "Brownie de chocolate con salsa de café",
+        "descripcion": "Brownie húmedo de cacao artesanal con un toque de café ecuatoriano.",
+        "imagen": "https://images.unsplash.com/photo-1625948242073-77bfa7e27b15"
+      },
+      "bebida_recomendada": "Cerveza artesanal oscura o vino Malbec",
+      "precio": 23.00,
+      "etiquetas": ["chef_recomendado"]
+    },
+    {
+      "nombre": "Cena Especial de Pareja",
+      "entrada": {
+        "nombre": "Bruschettas mixtas de tomate y jamón serrano",
+        "descripcion": "Pan artesanal tostado con topping de tomate albahaca y jamón curado.",
+        "imagen": "https://images.unsplash.com/photo-1625244724128-eced9708f8bb"
+      },
+      "plato_fuerte": {
+        "nombre": "Lomo en salsa de uvilla con puré de camote",
+        "descripcion": "Lomo fino sellado, acompañado de puré de camote y salsa agridulce de uvilla.",
+        "imagen": "https://images.unsplash.com/photo-1605478377039-3a61d367ad3b"
+      },
+      "postre": {
+        "nombre": "Tiramisú de cacao ecuatoriano",
+        "descripcion": "Versión artesanal con mascarpone y cacao 100% ecuatoriano.",
+        "imagen": "https://images.unsplash.com/photo-1625948242073-77bfa7e27b15"
+      },
+      "bebida_recomendada": "Botella de vino tinto o espumante (incluida en combo para dos)",
+      "precio": 45.00,
+      "etiquetas": ["especial", "parejas"]
+    }
+  ]
+}

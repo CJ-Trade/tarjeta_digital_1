@@ -1,0 +1,126 @@
+{
+  "nombre_restaurante": "Sabor Andino",
+  "servicio": "Catering y Eventos Empresariales",
+  "descripcion_general": "Ofrecemos experiencias gastronómicas personalizadas para empresas, reuniones ejecutivas y eventos corporativos. Cada menú se adapta al tipo de evento, número de personas y estilo de servicio (buffet, emplatado o cóctel).",
+  "ubicacion": "Quito, Ecuador",
+  "horario_atencion": "Lunes a Sábado, 08:00 - 20:00",
+  "moneda": "USD",
+  "tipos_eventos": [
+    {
+      "tipo": "Coffee Break Empresarial",
+      "descripcion": "Ideal para conferencias, capacitaciones o reuniones ejecutivas. Incluye opciones dulces y saladas, café de altura y jugos naturales.",
+      "precio_por_persona": 8.50,
+      "menu": {
+        "bebidas": [
+          "Café pasado de altura ecuatoriana",
+          "Agua mineral y aromáticas naturales",
+          "Jugo natural de naranja o mora"
+        ],
+        "salados": [
+          "Mini empanadas de queso y pollo",
+          "Mini sánduches artesanales de jamón serrano y queso",
+          "Tortilla de papa con cebolla caramelizada"
+        ],
+        "dulces": [
+          "Mini brownies de cacao ecuatoriano",
+          "Panecillos de zanahoria con glaseado de limón",
+          "Fruta fresca en vasitos individuales"
+        ]
+      },
+      "imagen": "https://images.unsplash.com/photo-1605478377039-3a61d367ad3b"
+    },
+    {
+      "tipo": "Almuerzo Ejecutivo Corporativo",
+      "descripcion": "Menú completo para reuniones empresariales, con platos balanceados y presentación elegante.",
+      "precio_por_persona": 15.00,
+      "menu": {
+        "entradas": [
+          "Ensalada de vegetales orgánicos con vinagreta de maracuyá",
+          "Crema de zapallo con queso fresco"
+        ],
+        "platos_fuertes": [
+          "Filete de pollo en salsa de champiñones con arroz y vegetales",
+          "Pescado al vapor con puré de papas y salsa de albahaca"
+        ],
+        "postres": [
+          "Flan de caramelo",
+          "Helado artesanal de frutas andinas"
+        ],
+        "bebidas": [
+          "Limonada con hierba luisa",
+          "Agua natural o con gas"
+        ]
+      },
+      "imagen": "https://images.unsplash.com/photo-1617196034796-73ef3ac82b8e"
+    },
+    {
+      "tipo": "Cena de Gala o Evento Corporativo",
+      "descripcion": "Cenas formales para aniversarios de empresa, premiaciones o recepciones con montaje tipo banquete o buffet.",
+      "precio_por_persona": 28.00,
+      "menu": {
+        "entradas": [
+          "Tartaletas de camarones con alioli de coco",
+          "Crema de maíz con trozos de cangrejo"
+        ],
+        "platos_fuertes": [
+          "Lomo fino en salsa de vino tinto con papas gratinadas",
+          "Trucha en costra de hierbas con vegetales salteados"
+        ],
+        "postres": [
+          "Cheesecake de uvilla",
+          "Tiramisú artesanal"
+        ],
+        "bebidas": [
+          "Vino tinto o blanco (opcional)",
+          "Agua, jugos naturales y café"
+        ]
+      },
+      "imagen": "https://images.unsplash.com/photo-1625244724128-eced9708f8bb"
+    },
+    {
+      "tipo": "Catering de Cóctel o Networking",
+      "descripcion": "Diseñado para eventos informales, lanzamientos de marca o networking. Ofrece bocaditos elegantes y bebidas ligeras.",
+      "precio_por_persona": 12.00,
+      "menu": {
+        "bocaditos_salados": [
+          "Mini tartaletas de pollo y pimiento",
+          "Brochetas de mozzarella y tomate cherry",
+          "Rollitos de jamón y queso crema"
+        ],
+        "bocaditos_dulces": [
+          "Mini cheesecakes de maracuyá",
+          "Trufas de chocolate artesanal",
+          "Shots de mousse de mora"
+        ],
+        "bebidas": [
+          "Jugos naturales",
+          "Vinos espumantes o cócteles sin alcohol"
+        ]
+      },
+      "imagen": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f"
+    }
+  ],
+  "servicios_adicionales": [
+    {
+      "nombre": "Montaje y decoración",
+      "descripcion": "Incluye mantelería, vajilla, cristalería y decoración temática según el tipo de evento.",
+      "precio_desde": 50.00
+    },
+    {
+      "nombre": "Servicio de meseros y logística",
+      "descripcion": "Personal capacitado para atención en mesa, buffet o cóctel.",
+      "precio_por_hora": 15.00
+    },
+    {
+      "nombre": "Música ambiental o en vivo",
+      "descripcion": "Opcional para cenas y eventos sociales. Disponible con grupos locales o playlist seleccionada.",
+      "precio_desde": 80.00
+    }
+  ],
+  "contacto": {
+    "telefono": "+593 98 765 4321",
+    "correo": "eventos@saborandino.com",
+    "web": "https://saborandino.ec/catering",
+    "instagram": "@saborandino.ec"
+  }
+}

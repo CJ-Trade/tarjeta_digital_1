@@ -1,0 +1,15 @@
+.footer {
+  background-color: #3f2b1a;
+  color: #fffaf4;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.3px;
+  border-top: 3px solid #b26a38;
+}
+
+.footer-texto {
+  margin: 0;
+  font-weight: 400;
+  opacity: 0.9;
+}

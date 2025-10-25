@@ -1,0 +1,104 @@
+{
+  "nombre_restaurante": "Sabor Andino",
+  "tipo_menu": "Almuerzos Ejecutivos",
+  "descripcion_general": "Nuestros almuerzos ejecutivos combinan tradición y sabor en un menú equilibrado, con ingredientes frescos de la Sierra ecuatoriana. Incluye sopa, plato fuerte, bebida natural y postre del día.",
+  "horario": "Lunes a Viernes, 12:00 - 15:00",
+  "precio_base": 7.50,
+  "moneda": "USD",
+  "dias": [
+    {
+      "dia": "Lunes",
+      "sopa": {
+        "nombre": "Crema de zapallo con queso fresco",
+        "descripcion": "Suave y cremosa, elaborada con zapallo andino y queso manaba.",
+        "imagen": "https://images.unsplash.com/photo-1631759430326-0f1a6a5d8c4e"
+      },
+      "plato_fuerte": {
+        "nombre": "Seco de pollo",
+        "descripcion": "Pollo tierno cocido lentamente en cerveza artesanal y especias, acompañado de arroz, maduro frito y aguacate.",
+        "imagen": "https://images.unsplash.com/photo-1625948242073-77bfa7e27b15"
+      },
+      "bebida": "Jugo natural de maracuyá",
+      "postre": "Flan de caramelo casero",
+      "precio": 7.50
+    },
+    {
+      "dia": "Martes",
+      "sopa": {
+        "nombre": "Sopa de quinoa con vegetales",
+        "descripcion": "Receta ancestral con quinoa, zanahoria, habas tiernas y especias andinas.",
+        "imagen": "https://images.unsplash.com/photo-1617196034796-73ef3ac82b8e"
+      },
+      "plato_fuerte": {
+        "nombre": "Trucha al vapor con ensalada de la casa",
+        "descripcion": "Trucha fresca del Cajas, servida con arroz integral y vegetales salteados.",
+        "imagen": "https://images.unsplash.com/photo-1601050690597-1d5d1c5e6f76"
+      },
+      "bebida": "Limonada con hierba luisa",
+      "postre": "Helado artesanal de taxo",
+      "precio": 7.80
+    },
+    {
+      "dia": "Miércoles",
+      "sopa": {
+        "nombre": "Caldo de gallina criolla",
+        "descripcion": "Tradicional caldo con papa chola, fideo y trozos de gallina de campo.",
+        "imagen": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f"
+      },
+      "plato_fuerte": {
+        "nombre": "Fritada quiteña",
+        "descripcion": "Carne de cerdo dorada con mote, maduro y curtido de cebolla morada.",
+        "imagen": "https://images.unsplash.com/photo-1625948242073-77bfa7e27b15"
+      },
+      "bebida": "Jugo de mora natural",
+      "postre": "Mousse de chocolate ecuatoriano",
+      "precio": 7.50
+    },
+    {
+      "dia": "Jueves",
+      "sopa": {
+        "nombre": "Locro de papa",
+        "descripcion": "Clásica sopa andina con papa, queso fresco y aguacate.",
+        "imagen": "https://images.unsplash.com/photo-1608137165509-75b6fd3d0a15"
+      },
+      "plato_fuerte": {
+        "nombre": "Carne asada con papas doradas",
+        "descripcion": "Corte de res marinado al estilo serrano, acompañado de papas y ensalada fresca.",
+        "imagen": "https://images.unsplash.com/photo-1617196034796-73ef3ac82b8e"
+      },
+      "bebida": "Agua de jamaica con canela",
+      "postre": "Tarta de coco artesanal",
+      "precio": 7.90
+    },
+    {
+      "dia": "Viernes",
+      "sopa": {
+        "nombre": "Aguado de pescado",
+        "descripcion": "Sopa tradicional con arroz, pescado fresco, cilantro y pimiento.",
+        "imagen": "https://images.unsplash.com/photo-1625244724128-eced9708f8bb"
+      },
+      "plato_fuerte": {
+        "nombre": "Encocado de camarones",
+        "descripcion": "Camarones en salsa de coco cremosa, acompañados con arroz y patacones.",
+        "imagen": "https://images.unsplash.com/photo-1617196034796-73ef3ac82b8e"
+      },
+      "bebida": "Jugo de piña con menta",
+      "postre": "Tres leches casero",
+      "precio": 8.00
+    }
+  ],
+  "opciones_adicionales": {
+    "extra_postre": {
+      "descripcion": "Agrega un postre adicional por solo $1.50",
+      "precio": 1.50
+    },
+    "cambio_bebida": {
+      "descripcion": "Sustituye la bebida natural por cerveza artesanal o gaseosa",
+      "precio": 2.00
+    },
+    "opcion_vegetariana": {
+      "descripcion": "Disponible todos los días bajo pedido (ej. lentejas estofadas o tortillas de quinua)",
+      "precio": 7.50
+    }
+  }
+}
